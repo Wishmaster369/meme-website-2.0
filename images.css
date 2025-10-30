@@ -6,7 +6,11 @@
 }
 
 body{
-    background: linear-gradient(120deg, rgb(0, 255, 242), rgba(255, 0, 247, 0.944));
+    margin: 0;
+   padding: 0;
+   font-family: "Poppins", sans-serif;
+   background: linear-gradient(135deg, #141E30, #243B55);
+   color: #f0f0f0;
     background-size: cover;
     background-position: fixed;
     background-repeat: no-repeat;
@@ -373,6 +377,7 @@ footer{
     .search_bar{
         width: 40%;
         margin: 0;
+        margin-left: 90px;
     }
     .search_bar input{
         height: 30px;
